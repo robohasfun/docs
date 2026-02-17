@@ -18,7 +18,12 @@
         "label": "White Paper",
         "href": "/white-paper"
       }
-    ]
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://robo.fun"
+    }
   },
   "navigation": {
     "groups": [
