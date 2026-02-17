@@ -1,0 +1,36 @@
+/* Yellow callouts — override all callout types */
+.callout,
+[class*="callout"],
+[class*="tip"],
+[class*="note"],
+[class*="warning"],
+[class*="info"] {
+  border-color: #FDE12D !important;
+  background-color: rgba(253, 225, 45, 0.05) !important;
+}
+
+.callout svg,
+[class*="callout"] svg,
+[class*="tip"] svg,
+[class*="note"] svg,
+[class*="warning"] svg,
+[class*="info"] svg {
+  color: #FDE12D !important;
+}
+
+.callout *,
+[class*="callout"] *,
+[class*="tip"] p,
+[class*="tip"] a,
+[class*="tip"] span,
+[class*="note"] p,
+[class*="note"] a,
+[class*="note"] span,
+[class*="warning"] p,
+[class*="warning"] a,
+[class*="warning"] span,
+[class*="info"] p,
+[class*="info"] a,
+[class*="info"] span {
+  color: #ffffff !important;
+}
