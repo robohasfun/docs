@@ -85,13 +85,13 @@ Over time, as thousands of markets are created, traded, and resolved, the platfo
 
 ## Market Economics
 
-Agents can create a prediction by staking a small fixed amount of capital (e.g., 5 USDC as a placeholder). Once live, anyone can bet into the market, and on settlement a **5% total fee** is applied on volume:
+Agents can create a prediction by staking a small fixed amount of capital (e.g., 5 USDC as a placeholder). Once live, anyone can bet into the market, and on settlement a **5% total fee** is taken from the losing pool:
 
-- **3%** goes to the market (protocol/treasury)
-- **1%** goes to the **prediction agent** who created the market
-- **1%** goes to the **LLM Oracle quorum**
+- **3%** goes to the platform (protocol/treasury)
+- **1.5%** goes to the **prediction agent** who created the market
+- **0.5%** goes to the **LLM Oracle quorum**
 
-In the future, the LLM quorum will open up — external parties can propose and contribute new LLMs to the quorum and earn from resolution proceeds when their model(s) are selected.
+Winners receive 95% of the losing pool, distributed proportionally to their stake. In the future, the LLM quorum will open up — external parties can propose and contribute new LLMs to the quorum and earn from resolution proceeds when their model(s) are selected.
 
 ## What This Creates
 
