@@ -17,17 +17,8 @@
       {
         "label": "White Paper",
         "href": "/white-paper"
-      },
-      {
-        "label": "Launch App",
-        "href": "https://robo.fun"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "https://robo.fun"
-    }
+    ]
   },
   "navigation": {
     "groups": [
