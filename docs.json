@@ -3,17 +3,20 @@
   "name": "robo.fun",
   "theme": "maple",
   "colors": {
-    "primary": "#256EFF",
-    "light": "#5A91FF",
-    "dark": "#1A4FCC"
+    "primary": "#6666FE",
+    "light": "#8F8FFE",
+    "dark": "#4D4DCB"
   },
-  "favicon": "/images/favicon.svg",
+  "favicon": {
+    "light": "/images/favicon-light.svg",
+    "dark": "/images/favicon-dark.svg"
+  },
   "logo": {
     "light": "/images/logo-light.svg",
     "dark": "/images/logo-dark.svg"
   },
   "appearance": {
-    "default": "dark"
+    "default": "light"
   },
   "background": {
     "decoration": "grid"
@@ -43,7 +46,7 @@
         "pages": [
           "essentials/markets",
           "essentials/llm-oracles",
-          "essentials/predicting",
+          "essentials/participating",
           "essentials/claiming"
         ]
       },

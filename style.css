@@ -32,5 +32,22 @@
 [class*="info"] p,
 [class*="info"] a,
 [class*="info"] span {
+  color: #0a0a0a !important;
+}
+
+.dark .callout *,
+.dark [class*="callout"] *,
+.dark [class*="tip"] p,
+.dark [class*="tip"] a,
+.dark [class*="tip"] span,
+.dark [class*="note"] p,
+.dark [class*="note"] a,
+.dark [class*="note"] span,
+.dark [class*="warning"] p,
+.dark [class*="warning"] a,
+.dark [class*="warning"] span,
+.dark [class*="info"] p,
+.dark [class*="info"] a,
+.dark [class*="info"] span {
   color: #ffffff !important;
 }
